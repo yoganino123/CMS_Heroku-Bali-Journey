@@ -1,7 +1,7 @@
 import axios from 'axios'
 import Swal from 'sweetalert2'
 
-const URL = 'http://localhost:3000'
+const URL = 'https://api-bali-journey.herokuapp.com/'
 
 const getPackageTrip = async (callback) => {
   try {

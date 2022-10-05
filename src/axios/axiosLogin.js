@@ -2,7 +2,7 @@ import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
 import Swal from 'sweetalert2'
 
-const URL = 'http://localhost:3000'
+const URL = 'https://api-bali-journey.herokuapp.com/'
 
 const login = async (form, cb) => {
   try {
