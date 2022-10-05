@@ -43,8 +43,8 @@ class App extends Component {
           <Route exact path="/404" name="Page 404" element={<Page404 />} />
           <Route exact path="/500" name="Page 500" element={<Page500 />} />
 
-          <Route path="admin/" name="HomeAdmin" element={<DefaultLayout />} />
-          <Route path="admin/dashboard" name="Dashboards" element={<Dashboard />} />
+          <Route path="admin/*" name="HomeAdmin" element={<DefaultLayout />} />
+          {/* <Route path="admin/dashboard" name="Dashboards" element={<Dashboard />} />
           <Route path="admin/category" name="Category" element={<Category />} />
           <Route path="admin/destination" name="Destination" element={<Destination />} />
           <Route path="admin/package-trip" name="package-trip" element={<PackageTrip />} />
@@ -59,7 +59,7 @@ class App extends Component {
             element={<ReviewPackageTrip />}
           />
           <Route path="admin/user" name="user" element={<User />} />
-          <Route path="admin/profile" name="profile" element={<Profile />} />
+          <Route path="admin/profile" name="profile" element={<Profile />} /> */}
         </Routes>
       </BrowserRouter>
     )
