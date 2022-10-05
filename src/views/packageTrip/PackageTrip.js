@@ -284,7 +284,7 @@ const PackageTrip = () => {
                           <CImage
                             height={50}
                             className="d-block w-100"
-                            src={'https://api-bali-journey.herokuapp.com/' + image.img}
+                            src={'http://localhost:3000/' + image.img}
                           />
                         </CCarouselItem>
                       ))}
@@ -458,7 +458,7 @@ const PackageTrip = () => {
                                 <CCardImage
                                   orientation="top"
                                   height={200}
-                                  src={'https://api-bali-journey.herokuapp.com/' + ptImg.img}
+                                  src={'http://localhost:3000/' + ptImg.img}
                                 />
                                 <CCardBody>
                                   <CButton

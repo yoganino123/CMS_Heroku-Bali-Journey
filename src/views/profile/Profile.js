@@ -97,7 +97,7 @@ const Profile = () => {
             <CImage
               align="center"
               rounded
-              src={'https://api-bali-journey.herokuapp.com/' + profile.img}
+              src={'http://localhost:3000/' + profile.img}
               width="200"
               height="200"
             />
@@ -136,7 +136,7 @@ const Profile = () => {
                     ) : (
                       <div className="col-auto">
                         <img
-                          src={'https://api-bali-journey.herokuapp.com/' + profile.img}
+                          src={'http://localhost:3000/' + profile.img}
                           height="200px"
                           className="preview-gambar"
                         />

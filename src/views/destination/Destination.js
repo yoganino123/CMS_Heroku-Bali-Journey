@@ -333,7 +333,7 @@ const Destination = () => {
                           <CImage
                             height={50}
                             className="d-block w-100"
-                            src={'https://api-bali-journey.herokuapp.com/' + image.img}
+                            src={'http://localhost:3000/' + image.img}
                           />
                         </CCarouselItem>
                       ))}
@@ -436,7 +436,7 @@ const Destination = () => {
                             <CCardImage
                               orientation="top"
                               height={200}
-                              src={'https://api-bali-journey.herokuapp.com/' + destImg.img}
+                              src={'http://localhost:3000/' + destImg.img}
                             />
                             <CCardBody>
                               <CButton color="danger" onClick={() => delImgDestination(destImg.id)}>
