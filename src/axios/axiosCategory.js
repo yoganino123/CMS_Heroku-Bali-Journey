@@ -1,7 +1,7 @@
 import axios from 'axios'
 import Swal from 'sweetalert2'
 
-const URL = 'https://api-bali-journey.herokuapp.com/'
+const URL = 'https://api-bali-journey.herokuapp.com'
 
 const getCategories = async (callback) => {
   try {

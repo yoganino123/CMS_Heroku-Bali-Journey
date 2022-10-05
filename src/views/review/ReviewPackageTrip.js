@@ -75,7 +75,7 @@ const ReviewPackageTrip = () => {
                 <CTableDataCell className="text-center">
                   <CAvatar
                     size="xl"
-                    src={'http://localhost:3000/' + revDest.user.images}
+                    src={'https://api-bali-journey.herokuapp.com/' + revDest.user.images}
                     status={revDest.user.status === 'active' ? 'success' : 'danger'}
                   />
                   <div>
@@ -99,7 +99,7 @@ const ReviewPackageTrip = () => {
                             <CImage
                               height={75}
                               className="d-block w-100"
-                              src={'http://localhost:3000/' + image.img}
+                              src={'https://api-bali-journey.herokuapp.com/' + image.img}
                             />
                           </CCarouselItem>
                         ))}
