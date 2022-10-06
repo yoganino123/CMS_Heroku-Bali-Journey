@@ -145,7 +145,7 @@ const User = () => {
                 <CTableDataCell>
                   <CAvatar
                     size="md"
-                    src={'http://localhost:3000/' + usr.img}
+                    src={'https://api-bali-journey.herokuapp.com/' + usr.img}
                     status={usr.status === 'active' ? 'success' : 'danger'}
                   />
                 </CTableDataCell>
